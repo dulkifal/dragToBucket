@@ -1,26 +1,24 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ 
+/* Field params */
+.screen{
+  height: 550px;
+  border: 2px solid black;
+  overflow-y: hidden;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+ 
+button {
+  background-color: #F8F8F8;
+  border: 1px solid #BBBBBB;
+  border-radius: 3px;
+  padding: 6px 18px;
+  margin: 12px;
+  color: #303030;
+  letter-spacing: 0.1em;
 }
-
-* {
-  box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+ 
+ 
